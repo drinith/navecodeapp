@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { useApp } from '../../Context';
 
 const HomePage = () => {
-
+    const userObject = useApp();
+    console.log(userObject);
     return (
         <div>
             Home Page

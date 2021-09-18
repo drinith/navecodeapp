@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useContext, useState } from 'react'
-import axios from 'axios';//Axios é um cliente HTTP baseado em Promises para fazer requisições.
+import axios from 'axios'; //Axios é um cliente HTTP baseado em Promises para fazer requisições.
 import keys from './config/keys'
 
 const AppContext = createContext({
@@ -39,6 +39,5 @@ export function useApp() {
   }
 
   return context;
-}
 
 export default AppContext;

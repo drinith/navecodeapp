@@ -19,7 +19,8 @@ else if (process.env.NODE_ENV == 'test') {
 else{
     module.exports = {
         
-        serverApi:'localhost:4000'
+        //serverApi:'localhost:4000'
+        serverApi:'navecode.herokuapp.com'
 
     };
 
